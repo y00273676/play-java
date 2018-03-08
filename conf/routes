@@ -5,6 +5,18 @@
 # Home page
 GET     /                                       Application.index
 
+#Add post show url
+GET     /posts/{id}                             Application.show
+
+#Add comments
+POST    /posts/{postId}/comments                Application.postComment
+
+#Add captcha
+GET     /captcha                                Application.captcha
+
+# Add admin
+*       /admin                                  module:crud
+
 # Ignore favicon requests
 GET     /favicon.ico                            404
 
