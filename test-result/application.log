@@ -1,0 +1,5 @@
+08 三月 2018 15:31:10,911 INFO  ~ Starting /Users/yg/workcode/test_play
+08 三月 2018 15:31:11,303 WARN  ~ You're running Play! in DEV mode
+08 三月 2018 15:31:11,366 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+08 三月 2018 15:35:37,271 INFO  ~ Connected to jdbc:mysql://127.0.0.1/fan?useUnicode=yes&characterEncoding=UTF-8&connectionCollation=utf8_general_ci
+08 三月 2018 15:35:37,997 INFO  ~ Application 'test_play' is now started !
