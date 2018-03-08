@@ -22,7 +22,7 @@ public class BasicTest extends UnitTest {
         assertEquals(1, Post.count());
     
         // Retrieve all posts created by Bob
-        List<Post> bobPosts = Post.find("byAuthor", bob).fetch();
+        List<Post> bobPosts = Post.find("author = ?", bob).fetch();
     
         // Tests
         assertEquals(1, bobPosts.size());
