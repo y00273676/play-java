@@ -43,4 +43,8 @@ public class Post extends Model {
         return Post.find("postedAt > ? order by postedAt asc", postedAt).first();
     }
 
+    public String toString() {
+        return title;
+    }
+
 }
