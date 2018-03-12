@@ -44,4 +44,8 @@ public class Application extends Controller {
         Images.Captcha captcha = Images.captcha();
         renderBinary(captcha); 
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8b96aee1ae0520e6c9164f9272dae99e2bd91867
 }

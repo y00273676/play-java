@@ -2,7 +2,11 @@
 
 require:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - play -> crud
 =======
     - play
 >>>>>>> 30bf24e... first push
+=======
+    - play -> crud
+>>>>>>> 8b96aee1ae0520e6c9164f9272dae99e2bd91867
