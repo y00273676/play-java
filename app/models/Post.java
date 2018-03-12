@@ -20,8 +20,9 @@ public class Post extends Model {
     @OneToMany(mappedBy="post", cascade=CascadeType.ALL)
     public List<Comment> comments;
 
+    
     public Post(User author, String title, String content) {
-    	this.comments = new ArrayList<Comment>();
+	this.comments = new ArrayList<Comment>();
         this.author = author;
         this.title = title;
         this.content = content;
@@ -35,7 +36,7 @@ public class Post extends Model {
         return this;
     }
 
-	public Post previous() {
+    public Post previous() {
         return Post.find("postedAt < ? order by postedAt desc", postedAt).first();
     }
 

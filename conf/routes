@@ -5,6 +5,7 @@
 # Home page
 GET     /                                       Application.index
 
+<<<<<<< HEAD
 #Add post show url
 GET     /posts/{id}                             Application.show
 
@@ -17,6 +18,8 @@ GET     /captcha                                Application.captcha
 # Add admin
 *       /admin                                  module:crud
 
+=======
+>>>>>>> 30bf24e... first push
 # Ignore favicon requests
 GET     /favicon.ico                            404
 

@@ -1,4 +1,8 @@
 # Application dependencies
 
 require:
+<<<<<<< HEAD
     - play -> crud
+=======
+    - play
+>>>>>>> 30bf24e... first push
